@@ -1,5 +1,6 @@
 ZSH_CONFIG="$ZDOTDIR"
 
+[[ -f "$ZSH_CONFIG/env.zsh" ]] && source "$ZSH_CONFIG/env.zsh"
 [[ -f "$ZSH_CONFIG/aliases.zsh" ]] && source "$ZSH_CONFIG/aliases.zsh"
 [[ -f "$ZSH_CONFIG/jvm.zsh" ]] && source "$ZSH_CONFIG/jvm.zsh"
 [[ -f "$ZSH_CONFIG/nvm.zsh" ]] && source "$ZSH_CONFIG/nvm.zsh"
