@@ -1,8 +1,9 @@
 # APPS & FILES ALIASES
-alias vimrc='vim $HOME/.vimrc'
-alias zshrc='nvim $HOME/.config/zsh'
+alias vimrc='$EDITOR $HOME/.config/nvim'
+alias vim='nvim'
+alias zshrc='$EDITOR $HOME/.config/zsh'
 alias zshsrc='source $HOME/.config/zsh/.zshrc'
-alias hosts='vim /Users/andrin/.ssh/known_hosts'
+alias hosts='$EDITOR /Users/andrin/.ssh/known_hosts'
 alias smoca='cd $HOME/smoca'
 alias me='cd $HOME/me'
 
