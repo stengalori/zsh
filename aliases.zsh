@@ -3,7 +3,7 @@ alias vimrc='$EDITOR $HOME/.config/nvim'
 alias vim='nvim'
 alias zshrc='$EDITOR $HOME/.config/zsh'
 alias zshsrc='source $HOME/.config/zsh/.zshrc'
-alias hosts='$EDITOR /Users/andrin/.ssh/known_hosts'
+alias hosts='$EDITOR $HOME/.ssh/known_hosts'
 alias smoca='cd $HOME/smoca'
 alias me='cd $HOME/me'
 
