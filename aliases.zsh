@@ -17,7 +17,7 @@ alias push='git push'
 alias suba='git submodule add'
 alias subi='git submodule init'
 alias subu='git submodule update'
-alias swi='git switch'
+alias swi='git fetch; git switch'
 alias swic='git switch -c'
 alias gui='gitui'
 
