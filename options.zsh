@@ -6,7 +6,7 @@ bindkey -e
 # inline command edit
 autoload edit-command-line
 zle -N edit-command-line
-bindkey '^xe' edit-command-line
+bindkey '^x^e' edit-command-line
 
 # HISTORY
 HISTFILE=~/.config/zsh/.zsh_history
